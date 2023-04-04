@@ -5,7 +5,7 @@
 
 <main class="container mx-auto">
   <!-- <h1 class="text-3xl font-bold mb-3">Brand Guidlines</h1> -->
-  <div class="snap-y snap-mandatory h-screen overflow-x-hidden">
+  <div class="snap-y snap-mandatory h-screen overflow-x-hidden scrollbar-hide">
     <Brand />
   </div>
 </main>

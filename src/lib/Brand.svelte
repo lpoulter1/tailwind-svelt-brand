@@ -1,16 +1,22 @@
-<section class="h-screen snap-start px-4 py-8">
-  <h2 class="text-2xl font-semibold mb-3">Brand Colors</h2>
-  <div class="py-2 mb-6">
+<script>
+  import brandColorsSrc from "./brandColors.png";
+</script>
+
+<section
+  class="h-screen snap-start px-4 py-8 flex flex-col gap-6 overflow-y-hidden"
+>
+  <h2 class="text-2xl font-semibold">Brand Colors</h2>
+  <div class="py-2">
     <hr class="border-b border-[#CCCCCC] border-dashed" />
   </div>
-  <div>
-    <h3 class="text-xl mb-6">Main Color</h3>
-    <p class="mb-6">
+  <div class="">
+    <h3 class="text-xl mb-6 font-semibold">Main Color</h3>
+    <p>
       These bold colors add energy to our brand, while highlighting the
       simplicity of our designs.
     </p>
   </div>
-  <div class="flex gap-2 justify-between">
+  <div class="flex gap-2 justify-between flex-wrap">
     <div class="flex justify-center items-center flex-col">
       <div class="rounded-full mb-3 bg-[#231F20] h-[90px] w-[90px] shadow-md" />
       <div class="mb-3">True Black</div>
@@ -42,6 +48,9 @@
       <div>255, 255, 255</div>
     </div>
   </div>
+  <figure class="justify-center items-center hidden sm:flex mt-6">
+    <img src={brandColorsSrc} alt="Brand Colors" class="h-auto max-w-xl" />
+  </figure>
 </section>
 <section class="h-screen snap-start px-4 py-8">
   <h2 class="text-2xl font-semibold mb-3">Typography</h2>
